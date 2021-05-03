@@ -17,7 +17,7 @@ const HomeScreen = () => {
       );
     });
     console.log(todos);
-  }, []);
+  }, [todos]);
   return (
     <div>
       <h1 className="heading py-2">Todo App!</h1>
